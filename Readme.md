@@ -77,10 +77,10 @@ The following functions are part of the R package `{invMovement}`:
 
 **NOTE!** The functions of the `{invMovement}` package have already been
 used and results have been published (e.g. Sander et al. (2021),
-Lisovski, Gosbell, et al. (2020)), I consider them in development. The
-theoretical concept behind the functions seems correct, however,
-especially the multi-core performance is not optimal and could be
-improved by e.g. using the future framework in R.
+Lisovski, Gosbell, et al. (2020)). Still, I consider them in
+development. The theoretical concept behind the functions seems correct,
+however, especially the multi-core performance is not optimal and could
+be improved e.g. using the `{future}` framework in R.
 
 ## Installation
 
