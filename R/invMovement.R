@@ -420,7 +420,9 @@ groupSensitivity <- function(twl, gr, calib, range = 50, n.thin = 10, n.iters = 
   
   list(twl = twl, gr = gr, x = out)
 }
-groupSummary     <- function(fit,  probs=0.95) {
+
+
+groupSummary <- function(fit,  probs=0.95) {
   
   stat <- function(x) c(mean=mean(x, na.rm = T),sd=sd(x, na.rm = T),quantile(x,prob=c(0.5,(1-probs)/2,1-(1-probs)/2), na.rm = T))
   
@@ -436,7 +438,8 @@ groupSummary     <- function(fit,  probs=0.95) {
   as.data.frame(cbind(sm, lon, lat))
   
 }
-mergeGroups      <- function(fit, n.sample = 1000, threshold = 0.6, plot = TRUE) {
+
+mergeGroups <- function(fit, n.sample = 1000, threshold = 0.6, plot = TRUE) {
   
   gr <- fit$gr
   

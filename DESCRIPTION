@@ -1,0 +1,28 @@
+Package: invMovement
+Title: Movement analyses for solar geolocation data
+Version: 0.0.0
+Authors@R: 
+    person(given = "Simeon",
+           family = "Lisovski",
+           role = c("aut", "cre"),
+           email = "simeon.lisovski@gmail.com")
+Description: Functions to identify and extract movement information from light-level (solar) geolocation data.
+License: GPL-3
+URL: https://github.com/slisovski/invMovement
+BugReports: https://github.com/slisovski/invMovement/issues
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    doParallel,
+    MASS,
+    birdring,
+    abind,
+    foreach
+Remotes:
+    swotherspoon/SGAT
+    slisovski/TwGeos
+Suggests:
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
