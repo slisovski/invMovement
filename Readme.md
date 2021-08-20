@@ -1,31 +1,27 @@
----
-title: 'InvMovement: R functions to identify movements in light level geolocation
-  data'
-author: "Simeon Lisovski"
-date: "8/20/2021"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+## Overview
+
+`{chess}` is an *opinionated* wrapper for R around
+[python-chess](https://github.com/niklasf/python-chess), an amazing
+library created by [Niklas Fiekas](https://github.com/niklasf). It
+allows users to read and write
+[PGN](https://en.wikipedia.org/wiki/Portable_Game_Notation) files as
+well as create and explore game trees such as the ones seen in chess
+books.
+
+## Installation
+
+Install the released version of `{chess}` from CRAN:
+
+``` r
+install.packages("chess")
 ```
 
-## R Markdown
+Or install the development version from GitHub with:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+``` r
+# install.packages("remotes")
+remotes::install_github("curso-r/chess")
 ```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
