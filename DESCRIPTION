@@ -1,5 +1,5 @@
 Package: invMovement
-Title: Movement analyses for solar geolocation data
+Title: Solar geolocation movement analysis
 Version: 0.0.0
 Authors@R: 
     person(given = "Simeon",
