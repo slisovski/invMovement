@@ -2,25 +2,22 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.Rmd. -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
   out.width = "75%"
 )
 ```
 
 
-## Overview
+## invMovements: R functions to identify movements in light-level geolocation data
 
-`{chess}` is an _opinionated_ wrapper for R around
-[python-chess](https://github.com/niklasf/python-chess), an amazing library
-created by [Niklas Fiekas](https://github.com/niklasf). It allows users to read
-and write [PGN](https://en.wikipedia.org/wiki/Portable_Game_Notation) files as
-well as create and explore game trees such as the ones seen in chess books.
+The identification of movements in light level geolocation data is of prime interest, since it can significantly improve track estimates using the _grouped Method_ in the R package ['SGAT'](https://github.com/SWotherspoon/SGAT).
+
+
 
 ## Installation
 
