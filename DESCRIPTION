@@ -19,7 +19,7 @@ Imports:
     abind,
     foreach
 Remotes:
-    swotherspoon/SGAT
+    swotherspoon/SGAT,
     slisovski/TwGeos
 Suggests:
 Encoding: UTF-8
